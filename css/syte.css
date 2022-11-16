@@ -1,0 +1,46 @@
+*
+{
+ margin: 0;
+ padding : 0;   
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(to right,black, purple,black);
+}
+h1
+{
+    margin-top: 20px;
+}
+
+.caixa
+{
+    margin-top: 20px;
+    width: 300px;
+    height: 250;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 15px 15px  black;
+}
+.caixa2
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px  black;
+}
+#botao
+{
+    background: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    font: 600 1.125rem/1.35 "Roboto", sans-serif;
+}
+#botao:hover
+{
+    background: red;   
+}
